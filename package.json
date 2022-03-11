@@ -1,0 +1,21 @@
+{
+  "name": "react-sql-node",
+  "version": "1.0.0",
+  "description": "리액트프로트앤드와 노드서버 데이터베이스아마존 rds",
+  "main": "server.js",
+  "scripts": {
+    "myreact": "cd introducereact && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run myreact\" "   
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
+
+
